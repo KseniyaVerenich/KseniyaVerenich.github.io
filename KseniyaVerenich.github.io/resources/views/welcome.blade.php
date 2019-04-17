@@ -59,7 +59,7 @@
        
        <a href="#"> Portfolio </a>
        <a href="/aboutme"> About </a>
-       <a href="#"> Resume </a>
+       <a href="/docs/KVerenich_TechCV.pdf"> Resume </a>
        <br><br><br>
       
 
@@ -71,9 +71,17 @@
 
             <h1 class="ml10">
   <span class="text-wrapper">
-    <span class="letters">Hello, I'm  </span> <span class="letters" id="name">Kseniya Verenich.</span>
+    <span class="letters">Hey, I'm Kseniya Verenich. </span> 
   </span>
-</h1>         
+</h1>     
+
+
+<!-- 
+<h1 class="ml10">
+  <span class="text-wrapper">
+    <span class="letters">I'm Kseniya Verenich. </span>
+  </span>
+</h1> -->
 
 <h1 class="ml10">
   <span class="text-wrapper">
@@ -153,6 +161,7 @@ anime.timeline({loop: false})
 }
 
 .ml10 .letter {
+
   display: inline-block;
   line-height: 1em;
   transform-origin: 0 0;
@@ -164,12 +173,15 @@ anime.timeline({loop: false})
 
            }
 
+         
+
             .letters {
                 background-color: #19D0ED  ;
                 border-color: #000000;
                 color:#FFFFFF   ;
                 font-family: 'Bungee', cursive;
-                /* text-shadow: -1px 0 #4F4E52 , 0 1px #4F4E52, 1px 0 #4F4E52  , 0 -1px #4F4E52 ; */
+           
+                
              
 
 
@@ -231,4 +243,7 @@ anime.timeline({loop: false})
             heady, body {
                 background-color: #19D0ED  ;  
             }
+
+   
+
         </style>
