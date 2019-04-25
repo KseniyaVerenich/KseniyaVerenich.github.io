@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Prata" rel="stylesheet">
   
 </head>
   <body>
@@ -73,7 +73,7 @@
 
             <h1 class="ml10">
   <span class="text-wrapper">
-    <span class="letters">Hey, I'm Kseniya Verenich. </span> 
+    <span class="letters">Hi, I'm Kseniya Verenich. </span> 
   </span>
 </h1>     
 
@@ -178,16 +178,11 @@ anime.timeline({loop: false})
          
 
             .letters {
-                background-color: #19D0ED  ;
+                background-color: #F2A488 ;
                 border-color: #000000;
-                color:#FFFFFF   ;
-                font-family: 'Bungee', cursive;
-           
-                
-             
-
-
-
+                color:#FAF7FF   ;
+                font-family: 'Prata', serif;
+                font-size:60px;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
@@ -222,7 +217,7 @@ anime.timeline({loop: false})
             }
 
             .links > a {
-                color:#F2F2F2     ;
+                color:#EDEBF2    ;
               
                 
                 padding: 0 25px;
@@ -243,7 +238,7 @@ anime.timeline({loop: false})
             }
 
             heady, body {
-                background-color: #19D0ED  ;  
+                background-color: #F2A488;  
             }
 
    
