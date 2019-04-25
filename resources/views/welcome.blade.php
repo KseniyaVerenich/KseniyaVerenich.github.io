@@ -58,7 +58,9 @@
         <div class="links">
        
        <a href="#"> Portfolio </a>
-       <a href="/aboutme"> About </a>
+       <a href="https://github.com/KseniyaVerenich"> GitHub </a>
+       <a href="https://www.linkedin.com/in/kseniyaverenich/"> LinkedIn </a>
+       <!-- <a href="/aboutme"> About </a> -->
        <a href="/docs/KVerenich_TechCV.pdf"> Resume </a>
        <br><br><br>
       
