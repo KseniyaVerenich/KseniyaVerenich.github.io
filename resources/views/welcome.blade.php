@@ -14,85 +14,58 @@
 </head>
   <body>
 
+
+<div class="flex-center position-ref full-height" id="textBody">
+  <div class="container">
+  <div class="row justify-content-center">
+  <div class="col text-right">
   
-
-
-
-  <!-- <nav class="navbar navbar-dark bg-dark" id="mainNav">
-      <a class="navbar-brand" href="#">Never expand</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarsExample01">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-md-0">
-          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-        </form>
-      </div>
-    </nav>
-   -->
-
-    <div class="flex-center position-ref full-height" id="textBody">
-        <div class="content">
-
-        
-        <div class="links">
+<div class="links">
+<br><br><br><br>
        
        <a href="https://laravelexercises.herokuapp.com/"> Portfolio </a>
+       <br>
        <a href="https://github.com/KseniyaVerenich"> GitHub </a>
+       <br>
        <a href="https://www.linkedin.com/in/kseniyaverenich/"> LinkedIn </a>
+       <br>
        <!-- <a href="/aboutme"> About </a> -->
        <a href="/docs/KVerenich_TechCV.pdf"> Resume </a>
-       <br><br><br>
+       
+    </div>
+    </div>
+    
+        
+     
+      <!-- <div class="col text-left"> -->
+     
       
+      <div class="title m-b-md">
 
+        <h1 class="ml10">
+        <span class="text-wrapper">
+        <br><br>
+         <span class="letters">Hi, I'm Kseniya Verenich. </span> 
+          </span>
+        </h1>     
 
-               
-               </div>
-                
-            <div class="title m-b-md">
-
-            <h1 class="ml10">
-  <span class="text-wrapper">
-    <span class="letters">Hi, I'm Kseniya Verenich. </span> 
-  </span>
-</h1>     
-
-
-<!-- 
-<h1 class="ml10">
-  <span class="text-wrapper">
-    <span class="letters">I'm Kseniya Verenich. </span>
-  </span>
-</h1> -->
 
 <h1 class="ml10">
   <span class="text-wrapper">
-    <span class="letters">I'm a full-stack web developer. </span>
+    <span class="letters">I'm a full-stack web developer.        </span>
   </span>
 </h1>
 
-             
+<!-- </div> -->
 
+
+
+
+
+
+
+             
+              </div>
             </div>
         </div>
     </div>
@@ -147,27 +120,27 @@ anime.timeline({loop: false})
  <style>
        
 
-            .ml10 {
-  position: relative;
-  font-weight: 900;
-  font-size: 1em;
-}
+          /* .ml10 {
+          position: relative;
+          font-weight: 900;
+          font-size: 1em;
+        }
 
-.ml10 .text-wrapper {
-  position: relative;
-  display: inline-block;
-  padding-top: 0.2em;
-  padding-right: 0.05em;
-  padding-bottom: 0.1em;
-  overflow: hidden;
-}
+          .ml10 .text-wrapper {
+            position: relative;
+            display: inline-block;
+            padding-top: 0.2em;
+            padding-right: 0.05em;
+            padding-bottom: 0.1em;
+            overflow: hidden;
+          }
 
-.ml10 .letter {
+            .ml10 .letter {
 
-  display: inline-block;
-  line-height: 1em;
-  transform-origin: 0 0;
-}
+              display: inline-block;
+              line-height: 1em;
+              transform-origin: 0 0;
+            } */
 
            #name {
                color: #FFFFFF    ;
@@ -195,7 +168,7 @@ anime.timeline({loop: false})
             .flex-center {
                 align-items: center;
                 display: flex;
-                justify-content: center;
+                justify-content: left;
             }
 
             .position-ref {
@@ -207,26 +180,28 @@ anime.timeline({loop: false})
                 right: 10px;
                 top: 18px;
             }
-
+/* 
             .content {
                 text-align: center;
-            }
+            } */
 
             .title {
                 font-size: 40px;
             }
 
             .links > a {
-                color:#EDEBF2    ;
-              
-                
-                padding: 0 25px;
-                font-size: 16px;
+                color:#FFE5DB    ; 
+                padding: 20px;
+                font-size: 15px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
             
+            }
+
+            .links > a:hover {
+              color:#FAF7FF;
             }
 
             .m-b-md {
